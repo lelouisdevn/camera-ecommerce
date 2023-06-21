@@ -1,0 +1,110 @@
+body{
+	background-color: cornflowerblue;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.container {
+	box-sizing: border-box;
+	width: 35%;
+	height: auto;
+	margin: 0 auto;
+	background-color: whitesmoke;
+	border-color: darkgray;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 5em;
+}
+
+.container div {
+	padding: 7px;
+}
+
+input {
+	padding: 10px;
+	height: 4em;
+	width: 100%;
+	border-radius: 5px;
+	border: solid 1px;
+	box-sizing: border-box;
+}
+
+input:hover{
+	border: blue solid 1px;
+	transition: 400ms;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+.form a:hover{
+	color: cornflowerblue;
+}
+
+.row .left{
+	float: left;
+	width: 33.33%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	transition: 400ms;
+}
+.row select{
+	height: 4em;
+	line-height: 4em;
+	width: 100%;
+	font-size: 12px;
+}
+.row select:hover{
+	border: blue solid 1px;
+	border-radius: 5px;
+}
+.row .left:last-child{
+	float: right;
+}
+
+.row input {
+	border: black solid 1px;
+}
+.container .footer{
+	margin-top: 2em;
+	border-radius: 5px;
+}
+
+.container .footer input{
+	background-color: dodgerblue;
+	color: whitesmoke;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.container .footer input:hover {
+	background: black;
+	color: white;
+	border: black solid 1px;
+	transition: 400ms;
+
+}
+.container .logo-left {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.container .logo{
+	float: right;
+	width: 20%;
+}
+.container .logo img{
+	height: 50px;
+	float: right;
+	width: auto;
+	padding-top: 10px;
+}
+.inp input {
+	height: 20px;
+	padding: 5px;
+	float: right;
+	width: 90%;
+}

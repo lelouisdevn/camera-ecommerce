@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container_news {
+    width: 50%;
+    margin: 30px auto;
+    overflow: auto;
+}
+
+.news_left{
+    width: 80%;
+    float: left;
+}
+
+.noidung_baiviet{
+    text-align: justify;
+}
+
+.news_right {
+    width: 20%;
+    float: right;
+}
+.news_right div {
+    border-bottom: grey solid 2px;
+}
+.news_head {
+    width: 50%;
+    margin: 20px auto;
+    overflow: auto;
+    background: whitesmoke;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.news-head-left {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.news-head-left input {
+    width: 100%;
+    padding: 7px;
+    border-radius: 7px;
+    border: grey solid 1px;
+}
+.title_news {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
